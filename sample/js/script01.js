@@ -14,7 +14,7 @@ $(function(){
     $("#content").text(students[2]);
 })
 
-　$("#button1").on("click",function(){
+　$("#button3").on("click",function(){
   $("#content").text(students[students.length-1]);
 })
 
