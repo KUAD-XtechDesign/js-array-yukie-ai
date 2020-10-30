@@ -7,7 +7,7 @@ $(function(){
   })
 
 　$("#button01").on("click",function(){
-    $("#content").text("最初のメンバーは" + "学生は全員で" + students.lengh + "人");
+    $("#content").text("最初のメンバーは" + students[0] + "/人数は" + students.lengh);
   })
 
 　$("#button02").on("click",function(){
