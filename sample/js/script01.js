@@ -6,7 +6,16 @@ $(function(){
     console.log(students)
   })
 
- 
+　$("#button1").on("click",function(){
+    $("#content").text("最初のメンバーは" + "学生は全員で" + students.lengh + "人")+
+})
 
+　$("#button2").on("click",function(){
+    $("#content").text(students[2]);
+})
+
+　$("#button1").on("click",function(){
+  $("#content").text(students[students.length-1]);
+})
 
 })
